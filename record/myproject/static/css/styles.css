@@ -1,0 +1,53 @@
+/* myapp/static/myapp/css/styles.css */
+/* フォーム全体のスタイル */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* フォーム内の各フィールドのスタイル */
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* 送信ボタンのスタイル */
+  form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* 送信ボタンのマウスオーバー時のスタイル */
+  form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* Download button style */
+form button#downloadButton {
+    display: block;  /* Make the button a block element to put it below the submit button */
+    margin-top: 10px;  /* Add some margin to the top of the button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;  /* Center the text within the button */
+}
+
+form button#downloadButton:hover {
+    background-color: #0056b3;
+}
+
+form button#downloadButton a {
+    color: #fff;  /* Make the text color of the link white */
+    text-decoration: none;  /* Remove the underline from the link */
+}

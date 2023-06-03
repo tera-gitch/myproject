@@ -1,0 +1,8 @@
+<!-- myapp/templates/myapp/product_list.html -->
+{% for product in products %}
+    <div>
+        <h2>{{ product.product_name }}</h2>
+        <p>{{ product.description }}</p>
+        <!-- 他のフィールドも同様に表示可能 -->
+    </div>
+{% endfor %}
